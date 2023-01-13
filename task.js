@@ -26,8 +26,8 @@ let armstrong_check = (x) => {
         return false;
 }
 
-console.log(isPrime(20));
-console.log(isPrime(7));
+console.log(prime_check(20));
+console.log(rime_check((7));
 
-console.log(isArmstrong('153'));
-console.log(isArmstrong('50'));
+console.log(armstrong_check('153'));
+console.log(armstrong_check('50'));
