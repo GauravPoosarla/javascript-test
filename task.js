@@ -1,5 +1,4 @@
-function isPrime(x)
-{
+let prime_check = (x) => {
     for(let i=2; i<=Math.sqrt(x); i++)
     {
         if(x%i == 0)
@@ -8,8 +7,7 @@ function isPrime(x)
     return true;
 }
 
-function isArmstrong(x)
-{
+let armstrong_check = (x) => {
     let sum = 0;
     const numDigits = x.length;
 
